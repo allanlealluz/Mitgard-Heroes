@@ -40,19 +40,27 @@ class Efeitos {
 ?>
 <h1>Guia dos Efeitos</h1>
 <div id="roxinha">
-<a href="inicio.php">Voltar</a>
+    <ul>
+        <li><a href="inicio.php">Voltar</a></li>
 
-<a href="DicasIniciais.php">Dicas</a>
+        <li><a href="DicasIniciais.php">Dicas</a></li>
 </div>
+</ul>
 <style>
     
     
     div#roxinha{
         width:1320px;
+        height:40px;
         background:brown;
-        padding:10px;
+        text-align:center;
+        top:50px;
+        position:absolute;
+    
+        
     }
-  
+  #roxinha ul li{list-style:none;text-align:center;float:left;margin:0 auto;}
+  #roxinha ul a{width:100px;background-color:red;list-style:none;text-align:center;height:40px;margin-left:50px;padding-top:10px;margin:0;margin-bottom:100px;}
     
     h1{  
         width:1320px;
