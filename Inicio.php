@@ -1,10 +1,3 @@
-<?php
-require_once 'Cadastrar.php';
-$con = new Cadastrar('crud', '127.0.0.1', 'root', 'allanlindo12');
-
-
-
-?>
 <!DOCTYPE html>
 
 <html>
@@ -25,11 +18,9 @@ $con = new Cadastrar('crud', '127.0.0.1', 'root', 'allanlindo12');
                 <a href="Efeitos.php">Guia dos Efeitos</a>
           <a href="DicasIniciais.php">Dicas</a>
            <a href="index.php">Cadastro</a>
-      
-           <?php
-           
-           ?>
-          
+           <form method='POST'>
+               <input type='search'>
+           </form>
            </nav>
     </div>
         </link>
@@ -51,7 +42,7 @@ $con = new Cadastrar('crud', '127.0.0.1', 'root', 'allanlindo12');
     #Links a{background-color:darkred;}
     #Links a:hover{background-color:brown;}
 
-    input[type="text"]{
+    input[type="search"]{
         margin-left:1100px;
         margin-top:20px;
     }
@@ -77,7 +68,7 @@ $con = new Cadastrar('crud', '127.0.0.1', 'root', 'allanlindo12');
        $p[14]=new Personagens("Justo modo ataque", 200,"nenhuma","nenhuma", '25%', "da 25% da vida do alvo", "Ataque Especial:tira qualquer buff de todos cowdown 3", "Passiva 1:não pode morrer para um alvo que o atacou antes de poder contra ataca-lo ");
        $p[15]=new Personagens("Ork general espada", 400, "nenhuma", "40 dura 10", 100, 'da 100 de dano numa linha', "Ataque Especial:da 150 de dano num alvo dando quebra por 2 turnos cowdown 5", "Passiva 1:ao ser atacado tem chance de diminuir um turno no especial Passiva 2;a cada 20 de vida ganha 5 de dano");
        $p[16]= new Personagens("Heitor", 200, "nenhuma", "nenhuma", 0, "planeja um cancelamento de um ataque", "Ataque Especial:da 300 de dano num alvo ignorando defesas e armaduras se o alvo morrer não pode reviver cowdown 4", "Passiva 1:pode esquivar e ao esquivar causa conflito");
-       $p[17]= new Personagens("Orfeu", "400", "nenhuma", "30 dura 4", 120, "da 120 de dano numa linha", "Ataque Especial:da 250 de dano em um time quebrando o plano atual cowdown 4", "Passiva 1:a cada 3 ataques recebidos do mesmo alvo ele da mais 50 de dano no mesmo Passiva 2:ao ficar com metade da vida entra no modo 100% ganhando mais 50 de dano no ataque comum e 150 no especial dando 20 de dano ao ser atacado e o especial muda para ataque vingativo que da 400 de dano num alvo o jogando longe por 3 turnos mais o cowdown se torna 5 Passiva 3:a cada 2 turnos seu tigre acorda podendo curar 50 de vida dele ou dar um efeito aleatorio no orfeu");
+       $p[17]= new Personagens("Orfeu", "400", "nenhuma", "30 dura 4", 120, "da 120 de dano numa linha", "Ataque Especial:da 250 de dano em um time quebrando o plano atual cowdown 4", "Passiva 1:a cada 3 ataques recebidos do mesmo alvo ele da mais 50 de dano no mesmo Passiva 2:ao ficar com metade da vida entra no modo 100% ganhando mais 50 de dano no ataque comum e 100 no especial");
        $p[18]= new Personagens("Pain", 200, "nenhuma", "nenhuma", 50,"da 50 de dano" ,"Ataque Especial:ativa os olhos por 1 turno dando controle em quem o atacar cowdown 3", "Passiva 1:cura 50 de vida de um alvo cowdown 2 Passiva 2:transforma um personagem morto em escravo ele volta com metade da vida e não pode usar o especial cowdowm 5");
        $p[19]= new Personagens("Kasame", 400, "nenhuma", 'nenhuma', 100, "da 100 de dano em até 3 alvos de uma coluna", "Ataque Especial:da 200 de dano num time cowdown 3", "Passiva 1:ao ser atacado tem chance de contra atacar Passiva :jogaa agua dimunindo a iniciativa dos inimigos em 10% por 2 turnos cowdown 3");
        $p[20]=new Personagens("Fortius", 300, "nenhuma","40 dura 4", 50, "da 50 de dano num alvo", 'Ataque Especial:entra em modo furia dando mais 50 de dano e absorvendo 25% do dano como vida', "Passiva 1:a cada 10 de vida ganha 5 de dano Passiva 2:ao entrar em combatte da aumento de chance de critico ao seu time por 2 turnos");
