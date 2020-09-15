@@ -71,10 +71,12 @@
        $p[17]= new Personagens("Orfeu", "400", "nenhuma", "30 dura 4", 120, "da 120 de dano numa linha", "Ataque Especial:da 250 de dano em um time quebrando o plano atual cowdown 4", "Passiva 1:a cada 3 ataques recebidos do mesmo alvo ele da mais 50 de dano no mesmo Passiva 2:ao ficar com metade da vida entra no modo 100% ganhando mais 50 de dano no ataque comum e 100 no especial");
        $p[18]= new Personagens("Pain", 200, "nenhuma", "nenhuma", 50,"da 50 de dano" ,"Ataque Especial:ativa os olhos por 1 turno dando controle em quem o atacar cowdown 3", "Passiva 1:cura 50 de vida de um alvo cowdown 2 Passiva 2:transforma um personagem morto em escravo ele volta com metade da vida e não pode usar o especial cowdowm 5");
        $p[19]= new Personagens("Kasame", 400, "nenhuma", 'nenhuma', 100, "da 100 de dano em até 3 alvos de uma coluna", "Ataque Especial:da 200 de dano num time cowdown 3", "Passiva 1:ao ser atacado tem chance de contra atacar Passiva :jogaa agua dimunindo a iniciativa dos inimigos em 10% por 2 turnos cowdown 3");
-       $p[20]=new Personagens("Fortius", 300, "nenhuma","40 dura 4", 50, "da 50 de dano num alvo", 'Ataque Especial:entra em modo furia dando mais 50 de dano e absorvendo 25% do dano como vida', "Passiva 1:a cada 10 de vida ganha 5 de dano Passiva 2:ao entrar em combatte da aumento de chance de critico ao seu time por 2 turnos");
+       $p[20]=new Personagens("Fortius", 300, "nenhuma","40 dura 4", 50, "da 50 de dano ", 'Ataque Especial:entra em modo furia dando mais 50 de dano e absorvendo 25% do dano como vida', "Passiva 1:a cada 10 de vida ganha 5 de dano Passiva 2:ao entrar em combatte da aumento de chance de critico ao seu time por 2 turnos");
        $p[21]= new Personagens("Mago supremo",150, 'nenhuma', "nenhuma", 150, "da 150 de dano num time podendo dar cegueira e chamas", "Ataque Especial:cria uma barreira em volta de seu time com 500 de vida ao levar ataque ela da dano baseado em metade da vida perdida cowdown 5", "Passiva 1:cura um aliado baseado em 10% do dano que ele causar Passiva 2:se ele não for atacado por 5 turnos dobra seu dano");
-       $p[22]= new Personagens("Jarem", 250,"nenhuma" , "nenhuma", 100,"da 100 de dano num alvo mais se ele tiver mais de 300 de vida da mais 10% da vida dele", "Ataque Especial:da 150 de dano em um time ganhando 50 de dano cowndown 3", "Passiva 1:aoser  atacado tem 20% de chance de contraatacar dando 25% do dano do alvo Passiva 2:se ele tiver debuffs a chance aumenta para 50%");
-       $p[23]= new Personagens('Laila', 250, "nenhuma", "nenhuma", 100, "da 100 de dano num alvo", "Ataque Especial:da 150 de dano num time ficando com raiva cowdown 3", "Passiva 1:ao ser atacada por homens tem chance de ficar com raiva Passiva 2:ao estar com raiva pode contraatacar dando 120 de dano e quebra");
+       $p[22]= new Personagens("Jarem", 250,"nenhuma" , "nenhuma", 100,"da 100 de dano  mais se ele tiver mais de 300 de vida da mais 10% da vida dele", "Ataque Especial:da 150 de dano em um time ganhando 50 de dano cowndown 3", "Passiva 1:aoser  atacado tem 20% de chance de contraatacar dando 25% do dano do alvo Passiva 2:se ele tiver debuffs a chance aumenta para 50%");
+       $p[23]= new Personagens('Laila', 250, "nenhuma", "nenhuma", 100, "da 100 de dano ", "Ataque Especial:da 150 de dano num time ficando com raiva cowdown 3", "Passiva 1:ao ser atacada por homens tem chance de ficar com raiva Passiva 2:ao estar com raiva pode contraatacar dando 120 de dano e quebra");
+       $p[24]= new Personagens("Ork Paladino", 200, "nenhuma", "35 dura 4", 50, "da 50 de dano", "Ataque Especial:é atraido por poder sombrio dando 100 de dano mais o ataque do alvo se o dano for maior que 150 o dano se torna em area cowdown 3", "Passiva 1:quando um personagem sombrio ataca seu time leva 20 de dano Passiva 2:purifica seu time tirando 1 debuff cowdown 2");
+       $p[25]= new Personagens("Paladino negro", 250, 'nenhuma', 'nenhuma', 50, "da 50 de dano podendo dar sangramento", "Ataque Especial:pega um alvo tentando seivar sua alma da 100 de dano mais 20% da vida perdida se o alvo morrer ele cura 50 de vida e perde 1 no cowdown cowdown 3", "Passiva 1:ao ver alguem morrer ganha 20 de dano Passiva 2:tem chance de reviver com 50% da vida só pode ser ativado 1 vez por batalha");
        $p[0]->Detalhar();
        $p[1]->Detalhar();
        $p[2]->Detalhar();
@@ -99,5 +101,7 @@
        $p[21]->Detalhar();
        $p[22]->Detalhar();
        $p[23]->Detalhar();
+       $p[24]->Detalhar();
+       $p[25]->Detalhar();
      ?>
      <h5>Criado por allanthepicudo</h5> 
