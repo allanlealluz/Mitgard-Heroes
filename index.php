@@ -1,6 +1,6 @@
 <?php
 require_once 'Cadastrar.php';
-$p= new Cadastrar("login", "127.0.0.1", "root", "allanlindo12");
+$p= new Cadastrar("login", "127.0.0.1", "root", "");
 
 ?>
 
